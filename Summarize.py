@@ -8,7 +8,7 @@ if sys.stdout.encoding != 'utf-8':
     sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8', buffering=1)
 
 # Fetching the Wikipedia page
-page = wikipedia.page("Constellation")
+page = wikipedia.page("Enter_the_Wiki_Topic_Here")
 
 # Creating a plaintext parser
 parser = PlaintextParser.from_string(page.content, Tokenizer('english'))
