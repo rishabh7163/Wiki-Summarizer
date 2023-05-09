@@ -7,8 +7,9 @@ This script requires the following libraries to be installed:
 wikipedia
 sumy
 
-You can install these libraries using pip. For example:
+You can install these libraries using pip. 
 
+For example:
 pip install wikipedia
 pip install sumy
 
