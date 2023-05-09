@@ -4,14 +4,14 @@ This is a Python script that summarizes the Wikipedia page on Hyperspectral Imag
 ## Requirements
 This script requires the following libraries to be installed:
 
-wikipedia
-sumy
+1. wikipedia
+2. sumy
 
 You can install these libraries using pip. 
 
 For example:
-pip install wikipedia
-pip install sumy
+1. pip install wikipedia 
+2. pip install sumy
 
 ## Usage
 To use this script, simply run the following command in your terminal:
