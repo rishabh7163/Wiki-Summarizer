@@ -1,5 +1,5 @@
 ## Introduction
-This is a Python script that summarizes the Wikipedia page on Hyperspectral Imaging using the Sumy library. It uses the LexRank summarizer to generate summaries for each paragraph of the page.
+This is a Python script that summarizes the Wikipedia page using the Sumy library. It uses the LexRank summarizer to generate summaries for each paragraph of the page.
 
 ## Requirements
 This script requires the following libraries to be installed:
