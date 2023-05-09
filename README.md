@@ -1,23 +1,26 @@
 ## Introduction
-This code is used to generate a summary of a Wikipedia page using the Luhn algorithm. It uses the Sumy library to create a plaintext parser, tokenizers, and a summarizer. The output is a summary of the Wikipedia page based on a specified fraction of the original text.
+This is a Python script that summarizes the Wikipedia page on Hyperspectral Imaging using the Sumy library. It uses the LexRank summarizer to generate summaries for each paragraph of the page.
 
+## Requirements
+This script requires the following libraries to be installed:
 
-## Dependencies
-- Python 3.6 or higher
-- Sumy library
-- Wikipedia library
+wikipedia
+sumy
 
+You can install these libraries using pip. For example:
+
+pip install wikipedia
+pip install sumy
 
 ## Usage
-1. Install the required dependencies
-2. Replace "Enter_the_Wiki_Topic_Here" with the title of the Wikipedia page you want to summarize.
-3. Adjust the summary length by changing the value of `summary_length`. It should be a fraction between 0 and 1, indicating the proportion of the original text to be included in the summary.
-4. Run the code. The summary will be printed in the console.
+To use this script, simply run the following command in your terminal:
 
+python <your-file-name>.py
+The script will fetch the Wikipedia page and generate a summary for each paragraph.
 
-## Output
-The code generates a summary of the Wikipedia page based on the specified fraction of the original text. The output is a list of sentences that represent the main points of the article.
+## Parameters
+The script uses the following parameters:
 
-
-## Limitations
-The Luhn algorithm is a simple summarization technique that may not always produce the best results. The output may not be as accurate or comprehensive as a summary created by a human. Additionally, the code may not work for all Wikipedia pages, particularly those with non-English content.
+1. summary_length: The length of the summary as a fraction of the original text. The default value is 0.3.
+2. similarity_threshold: The similarity threshold for sentence similarity. The default value is 0.1.
+You can adjust these parameters by editing the script.
